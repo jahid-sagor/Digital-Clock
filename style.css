@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: aliceblue;
+    font: bold 100px Arial;
+    
+}
+#date{
+    padding-bottom: 5px;
+    color: rgba(100, 148, 237, 0.559);
+    text-align: center;
+}
+.clock{
+    border: 5px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 1px 1px rgba(223, 6, 212, 0.779), 0 2px 2px rgba(222, 6, 182, 0.829), 0 4px 4px rgba(215, 9, 136, 0.797), 0 1px 1px rgba(207, 11, 155, 0.829);}
+#ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: cadetblue;
+}
+#month{
+    font-size: 60px;
+}
+
